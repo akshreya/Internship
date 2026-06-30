@@ -1,0 +1,75 @@
+{
+  "otps": {},
+  "pending": [],
+  "users": [
+    {
+      "id": "1782797804411",
+      "fname": "Ak",
+      "lname": "Shreya",
+      "email": "shreya@yopmail.com",
+      "phone": "9876543210",
+      "passwordHash": "$2a$10$0RL4U3Px4TGFt6thI32cE.UzOQqMwSaaA4QGFDeEjLibIYDHVqN7C",
+      "requestedAt": "2026-06-30T05:36:44.411Z",
+      "department": "Engineering",
+      "approvedAt": "2026-06-30T05:36:59.315Z",
+      "attendance": [
+        {
+          "date": "2026-06-30",
+          "checkIn": "2026-06-30T05:38:19.498Z",
+          "checkOut": null,
+          "workingHours": 0,
+          "lateMinutes": 98,
+          "status": "present"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1782797895330",
+          "title": "Frontend debug",
+          "description": "",
+          "priority": "medium",
+          "deadline": "2026-06-30T12:09",
+          "assignedDate": "2026-06-30T05:38:15.330Z",
+          "completedDate": "2026-06-30T06:19:50.780Z",
+          "status": "completed",
+          "assignedBy": "self"
+        }
+      ],
+      "leaves": [
+        {
+          "id": "1782798953988",
+          "type": "sick",
+          "startDate": "2026-06-29",
+          "endDate": "2026-06-29",
+          "reason": "",
+          "status": "approved",
+          "requestedAt": "2026-06-30T05:55:53.988Z"
+        }
+      ],
+      "basicSalary": 40000,
+      "salarySlips": [
+        {
+          "month": "2026-06",
+          "basicSalary": 40000,
+          "workingDays": 22,
+          "presentDays": 1,
+          "absentDays": 21,
+          "lateCount": 1,
+          "completedTasks": 0,
+          "totalTasks": 1,
+          "completionPercent": 0,
+          "bonus": 0,
+          "manualBonus": 1000,
+          "totalBonus": 1000,
+          "latePenalty": 100,
+          "takenLeaveDays": 0,
+          "leaveDeduction": 0,
+          "absentDeduction": 38181.82,
+          "netSalary": 2718.18,
+          "generatedAt": "2026-06-30T05:54:32.528Z"
+        }
+      ],
+      "manualBonus": 1000
+    }
+  ]
+}
