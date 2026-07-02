@@ -20,6 +20,14 @@
           "workingHours": 0,
           "lateMinutes": 98,
           "status": "present"
+        },
+        {
+          "date": "2026-07-02",
+          "checkIn": "2026-07-02T08:05:05.866Z",
+          "checkOut": null,
+          "workingHours": 0,
+          "lateMinutes": 245,
+          "status": "present"
         }
       ],
       "tasks": [
@@ -33,6 +41,17 @@
           "completedDate": "2026-06-30T06:19:50.780Z",
           "status": "completed",
           "assignedBy": "self"
+        },
+        {
+          "id": "1782808365277",
+          "title": "backend",
+          "description": "",
+          "priority": "high",
+          "deadline": "2026-06-30T14:05",
+          "assignedDate": "2026-06-30T08:32:45.277Z",
+          "completedDate": "2026-06-30T08:36:26.187Z",
+          "status": "completed",
+          "assignedBy": "self"
         }
       ],
       "leaves": [
@@ -44,6 +63,15 @@
           "reason": "",
           "status": "approved",
           "requestedAt": "2026-06-30T05:55:53.988Z"
+        },
+        {
+          "id": "1782808451665",
+          "type": "casual",
+          "startDate": "2026-07-01",
+          "endDate": "2026-07-02",
+          "reason": "",
+          "status": "denied",
+          "requestedAt": "2026-06-30T08:34:11.665Z"
         }
       ],
       "basicSalary": 40000,
@@ -70,6 +98,73 @@
         }
       ],
       "manualBonus": 1000
+    },
+    {
+      "id": "1782808655132",
+      "fname": "ria",
+      "lname": "ak",
+      "email": "ria@yopmail.com",
+      "phone": "9876543211",
+      "passwordHash": "$2a$10$nNbbUoscGy86kMaFB5xjFekQx4DFwdS0qEVO71COImMBAM29I7q7q",
+      "requestedAt": "2026-06-30T08:37:35.132Z",
+      "department": "Product Design",
+      "approvedAt": "2026-06-30T08:37:44.668Z",
+      "attendance": [
+        {
+          "date": "2026-06-30",
+          "checkIn": "2026-06-30T08:41:07.316Z",
+          "checkOut": null,
+          "workingHours": 0,
+          "lateMinutes": 281,
+          "status": "present"
+        },
+        {
+          "date": "2026-07-02",
+          "checkIn": "2026-07-02T08:04:08.441Z",
+          "checkOut": null,
+          "workingHours": 0,
+          "lateMinutes": 244,
+          "status": "present"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1782808796746",
+          "title": "new product logo",
+          "description": "",
+          "priority": "high",
+          "deadline": "2026-06-30T14:10",
+          "assignedDate": "2026-06-30T08:39:56.746Z",
+          "completedDate": "2026-06-30T08:40:15.520Z",
+          "status": "completed",
+          "assignedBy": "admin"
+        }
+      ],
+      "leaves": [],
+      "basicSalary": 30000,
+      "salarySlips": [
+        {
+          "month": "2026-06",
+          "basicSalary": 30000,
+          "workingDays": 22,
+          "presentDays": 1,
+          "absentDays": 21,
+          "lateCount": 1,
+          "completedTasks": 1,
+          "totalTasks": 1,
+          "completionPercent": 100,
+          "bonus": 2000,
+          "manualBonus": 2000,
+          "totalBonus": 4000,
+          "latePenalty": 100,
+          "takenLeaveDays": 0,
+          "leaveDeduction": 0,
+          "absentDeduction": 28636.36,
+          "netSalary": 5263.64,
+          "generatedAt": "2026-06-30T08:41:39.833Z"
+        }
+      ],
+      "manualBonus": 2000
     }
   ]
 }
